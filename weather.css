@@ -1,0 +1,62 @@
+body{
+/*	height: auto;
+	width: auto;*/
+}
+
+h2{
+	text-align: center;
+	font-family: 'David Libre', serif;
+	color: white;
+}
+
+#jumb{
+	width:800px;
+	text-align: center;
+	margin:auto;
+	margin-top: 50px;
+	
+	/*opacity: 0.5;*/
+}
+
+#condition,
+#wd{
+  border: 2px solid #fff;
+  border-radius: 30%;
+  box-shadow: .2em .2em .2em white;
+  display: inline-block;
+  font-size: 1.2em;
+  margin: .5em;
+  min-height: 4em;
+  min-width: 11em;
+  text-shadow: 1px 1px 1px white;
+  line-height: 4em;
+}
+
+/*city icon, temp*/
+#city{
+	font-size: 30px;
+	font-family: 'Lora', serif;
+	color: white;
+}
+
+#temp{
+	font-size: 25px;
+	font-family: 'Lora', serif;
+}
+#tempChange{
+	border-radius: 50%;
+}
+
+/*search part*/
+#search{
+	width: 400px;
+	height: 40px;
+	font-size: 20px;
+}
+
+/*footer*/
+#footer{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	font-size:15px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Weather</title>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower|David+Libre|Lora" rel="stylesheet">
+		<!--<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">-->
+		<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/themes/sunny/jquery-ui.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="./weather.css">
+		<!--<script src="./jquery-1.11.3.js"></script>-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="./weather.js"></script>
+		
+	</head>
+	<body>
+		<div class="container">
+			<h2>Show Weather</h2>
+			<div  id="jumb">
+				<div class="row">
+					<input id="search" type="text" placeholder="Search for a city">
+				</div>
+				<br>
+				<div class="row">
+					<div id="city">West Columbia, SC, US</div>
+					<div id="w_icon"></div>
+					<div id="temp">28°C</div>
+				</div>
+
+				<div class="row">
+					<div id="condition">clear</div>
+					<div id="wd">80</div>
+				</div>
+				<div class="row">
+					<input type="button" class="btn btn-success" id="tempChange" value="°F / °C">
+				</div>
+			</div><!--end of jumbotron-->
+			<br>
+			<div id="footer">Made by Yue He</div>
+		</div><!--end of container-->
+
+	</body>
+</html>
